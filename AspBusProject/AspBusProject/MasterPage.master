@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" Codebehind="MasterPage.master.cs"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PRTC</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="logo" style="padding-left:40%;background-color:white">
+        <img alt="PRTC Logo" id="Img1" src="~/Images/PRTClogo.jpg" runat="server" />
+    </div>
+    <div class="links">
+     [<a href="logincheck.aspx">Login</a>] &nbsp;&nbsp;
+     [<a href="default.aspx">Home</a>] &nbsp;&nbsp;
+     [<a href="feedback.aspx">Feedback</a>] &nbsp;&nbsp;
+     [<a href="services.aspx">Services</a>] &nbsp;&nbsp;
+     [<a href="cancelbooking.aspx">Cancel Booking</a>] &nbsp;&nbsp;
+     [<a href="contactus.aspx">Contact Us</a>] &nbsp;&nbsp;
+    </div>
+    <div style="width:100%;height:500px">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     </asp:ContentPlaceHolder>
+    </div>
+    <p />
+    <div class="footer">Copyright &copy PRTC 2020. All rights reserved.</div>
+    </form>
+</body>
+</html>
