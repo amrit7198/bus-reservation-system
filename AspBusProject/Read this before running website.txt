@@ -1,0 +1,5 @@
+In order to book seats for a specific date, we need to generate buses for that day.
+This feature is accessible after logging in as admin. We have already genearated buses for time period
+4/10/2020 to 4/17/2020.
+If you try to generate buses for above mentioned dates then you will get an error.
+If you want to book a bus for any other date, then you can generate buses for that specific date. 
